@@ -34,7 +34,7 @@ class ListItem extends Component {
                 return <div className= {h.cssClasses}>
                          <div className={basicContainerStyle}>
                               <h2>{h.title}</h2>
-                              <p>I have experiences in full-stack web development.</p>
+                              <p>{h.content}</p>
                               <div class="card text-primary bg-light mb-3">
                                       <div class="card-body">
                                               <p class="card-text" style={style}>Areas of study includes: <span style={{color: 'deepskyblue'}}>{h.studies + ""}</span></p>
