@@ -23,6 +23,10 @@ class ListItem extends Component {
         
         const basicContainerStyle = "container seven-five-margin";
         
+        const style = {
+            fontWeight: 'bold'
+        };
+        
         return (
             
             information.map((h, i) => {
@@ -33,7 +37,7 @@ class ListItem extends Component {
                               <p>I have experiences in full-stack web development.</p>
                               <div class="card text-primary bg-light mb-3">
                                       <div class="card-body">
-                                              <p class="card-text" dangerouslySetInnerHTML={{__html: h.special}}></p>
+                                              <p class="card-text" style={style}>Areas of study includes: <span style={{color: 'deepskyblue'}}>{h.studies + ""}</span></p>
                                       </div>
                               </div>
                           </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InDevelopment from './InDevelopment';
 import AboutMe from './AboutMe';
 import ListItem from './ListItem';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,8 @@ class App extends Component {
           <AboutMe />
   
           <ListItem />
+          
+          <Footer />
           
       </div>
     );
