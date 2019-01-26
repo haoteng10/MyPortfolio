@@ -59,7 +59,6 @@ class ListItem extends Component {
                               <p>{h.content}</p>
                               <div className={"card text-primary bg-light mb-3"}>
                                       <div className={"card-body"}>
-                                              <p style={{color: 'blue'}}>{h.processedStudies}</p>
                                               <p className={"card-text"} style={style}>Areas of study includes: <span style={{color: "deepskyblue"}}>{Parser(h.processedStudies)}</span></p>
                                       </div>
                               </div>
