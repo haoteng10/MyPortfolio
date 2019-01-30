@@ -1,6 +1,11 @@
 
 # You may visit this website at [https://haoteng.xyz](https://haoteng.xyz)
 
+## Screenshots
+![screenshot](https://i.imgur.com/NRGEK3Q.png)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
