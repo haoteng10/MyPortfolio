@@ -8,17 +8,14 @@ class ListItem extends Component {
             {
                 title: "Web Development",
                 cssClasses: "Web-Development display-grid",
-                content: "I have experiences in full-stack web development.",
-                special: "<strong> Areas of Study includes: HTML, CSS, Javascript, Node.Js. </strong>",
+                content: "I have experiences in full-stack web development. For instance, this website is designed with React.",
                 studies: ["HTML", "CSS", "Javascript", "Node.js", "React"],
-                // studies: ["HTML sfdkjsldfsdfkl", " sdfsdf CSS", "Javascript", "Node.js", "React"],
                 processedStudies: "" 
             } ,
             {
                 title: "Minecraft Plugins Development",
                 cssClasses: "Minecraft display-grid",
                 content: "I have experiences in developing simple Minecraft plugins that will have its designed functions and features by interacting with the Spigot API.",
-                special: "<strong> Areas of Study includes: Java </strong>",
                 studies: ["Java"],
                 processedStudies: ""
             }]
